@@ -6,6 +6,8 @@
 // hint.
 
 
+use std::fmt::Pointer;
+
 fn main() {
-    println!("Hello world!");
+    println!("Hello {}!", "World");
 }
